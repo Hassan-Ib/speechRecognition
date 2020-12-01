@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 5rem;
+  letter-spacing: 1px;
+}
+.talk {
+  background-color: #333;
+  box-shadow: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+.content {
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 3rem;
+  width: 100%;
+  border: 2px solid aqua;
+  border-radius: 10px;
+}
